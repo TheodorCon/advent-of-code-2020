@@ -1,3 +1,4 @@
+main :: IO ()
 main = do
   dataString <- readFile "day-9.data"
   let numbers = map read (lines dataString) :: [Int]
